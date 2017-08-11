@@ -70,7 +70,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-public class tasks2 extends AppCompatActivity
+public class tasks extends AppCompatActivity
 {
     private static ListView listView;
     TextView txtView;

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/yellow_notebook_paper"
+
+    tools:context="com.example22.nluria.missionList.newList">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/add_a_title"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/add"
+        android:id="@+id/addNewListBtn"
+        android:background="@drawable/custom_button"
+        android:layout_below="@+id/add_a_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/add_a_group_title"
+        android:id="@+id/giveTitle"
+        android:textColor="#7c0606"
+        android:layout_above="@+id/add_a_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="96dp"
+
+        android:textSize="@dimen/abc_dropdownitem_icon_width"
+        android:textStyle="bold" />
+
+    <!--
+        <TextView
+            android:text="TextView"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:id="@+id/myPhoneNumText"
+            android:layout_above="@+id/giveTitle"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="21dp" />
+    -->
+
+
+</RelativeLayout>
