@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">ToDo</string>
+    <string name="app_name">Mission List</string>
+    <string name="title_activity_group_tasks_list">group_tasks_list</string>
+    <string name="exit" translatable="false"></string>
+    <string name="view_my_groups" translatable="false">צפה ברשימות שלי</string>
+    <string name="create_a_new_group" translatable="false">צור רשימה חדשה</string>
+    <string name="add_a_group_title" translatable="false">תן כותרת לרשימה:</string>
+    <string name="add" translatable="false">הוסף</string>
+    <string name="delete_all_groups" translatable="false">מחק הכל</string>
+    <string name="Do_you_want_to_exit" translatable="false">האם ברצונך לצאת?</string>
+    <string name="Add_new_task" translatable="false">הוסף</string>
+    <string name="clear_tasks" translatable="false">נקה הכל</string>
+    <string name="delete_groups" translatable="false">מחק קבוצה</string>
+    <string name="leave_group" translatable="false">צא מהקבוצה</string>
+
+
+    <string name="msg">Please enable all permissions</string>
+
+
 </resources>

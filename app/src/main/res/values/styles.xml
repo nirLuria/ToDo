@@ -6,6 +6,30 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+        <item name="android:editTextColor">#D71717</item>
+
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">#afffff</item>
+    </style>>
+
+    <style name="YourDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:colorAccent">#afffff</item>
+        <item name="android:textColor">#cc6600</item>
+        <item name="android:title">60dp</item>
+        <item name="android:textColorPrimary">#afbbff</item>
     </style>
 
 </resources>
